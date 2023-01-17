@@ -1,0 +1,72 @@
+*{
+  margin: 0px;
+  padding: 0px;
+  font-family:"ubuntu", sans-serif;
+}
+
+body {
+  background-image: linear-gradient(rgb(166, 248, 170), rgb(171, 97, 240), rgb(243, 126, 175));
+  height: 100vh;
+  align-items: center;
+}
+  
+  .card {
+    height: 420px;
+    width: 600px;
+    margin: 50px auto;
+    border-radius: 10px 10px 10px 10px;
+    box-shadow: 0px 14px 32px 0px rgb(7, 7, 7);
+  }
+  
+  .card-img {
+    border-radius: 10px 0px 0px 10px;
+    float: left;
+    height: 420px;
+    width: 300px;
+  }
+  
+  .product-info {
+    float: left;
+    height: 420px;
+    width: 300px;
+    border-radius: 0px 10px 10px 0px;
+    background-color: #ffffff;
+  }
+  
+  .product-text {
+    height: 300px;
+    width: 300px;
+  }
+  
+  .product-text h1 {
+    font-family: 'Bentham', serif;
+    margin: 20px;
+    padding-top: 40px;
+    font-size: 30px;
+    color: #474747;
+  }
+  
+  .product-text h2 {
+    margin: 20px;
+    font-size: 13px;
+    font-weight: bold;
+    text-transform: uppercase;
+    color: #000000;
+    letter-spacing: 0.2rem;
+  }
+  
+  .product-text p {
+    text-align: justify;
+    height: 125px;
+    margin: 20px;
+    color: #8d8d8d;
+    line-height: 1.2rem;
+    font-size: 15px;
+    font-weight: lighter;
+    overflow: hidden;
+  }
+
+  .card:hover {
+    transition: 0.8s;
+    transform: scale(1.1);
+}
